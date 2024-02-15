@@ -1,8 +1,8 @@
-# h1 Opetellaan Tukiviittomia - Sovellus
+# Opetellaan Tukiviittomia - Sovellus
 
 Tämä sovellus tarjoaa käyttäjälle mahdollisuuden oppia tukiviittomia hedelmien avulla. Sovelluksessa käyttäjä voi klikata hedelmäkuvaa nähdäkseen siihen liittyvän tukiviittoman. Käyttäjä voi myös halutessaan siirtyä tarkastelemaan kunkin hedelmän viittomaa laajemmin.
 
-# h1 Käyttöohjeet
+# Käyttöohjeet
 
 **1. Hedelmän valitseminen:**
     *Klikkaa haluamaasi hedelmää nähdäksesi siihen liittyvän tukiviittoman.
@@ -13,11 +13,11 @@ Tämä sovellus tarjoaa käyttäjälle mahdollisuuden oppia tukiviittomia hedelm
 **3. Tukiviittoman laajempi tarkastelu:**
     *Kun tukiviittomaa on klikattu, siirrytään tarkastelemaan kyseisen hedelmän viittomaa laajemmin.
 
-# h1 Tekninen toteutus
+# Tekninen toteutus
 **JavaScript:** Sovelluksen toiminnallisuus on toteutettu JavaScriptillä.
 **HTML ja CSS:** Käyttöliittymä on rakennettu HTML:n ja CSS:n avulla.
 **Kuvat:** Hedelmäkuvat ja niihin liittyvät viittomakuvat ovat tallennettu img-kansioon.
 **Linkit:** Kukin hedelmäkuva linkittyy vastaavaan tukiviittomaan ja laajempaan viittoman tarkasteluun.
 
-# h1 Lisätiedot
+# Lisätiedot
 Tämä sovellus on osa oppimisprojektia, jossa tutustutaan tukiviittomiin ja niiden käyttöön. Sovelluksen avulla käyttäjä voi oppia uusia viittomia ja kehittää taitojaan viittomakielellä kommunikoinnissa.
