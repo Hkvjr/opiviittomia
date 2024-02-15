@@ -1,0 +1,72 @@
+body {
+    /*background-color: #fffacd; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+h1,h2 {
+    background-color: #ffecb3;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.img-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    max-width: 800px; /* Määritä maksimileveys */
+    margin-left: auto; /* Keskitä sivu */
+    margin-right: auto; /* Keskitä sivu */
+}
+
+img {
+    width: 200px;
+    /* Määritä kuvien koko */
+    height: auto;
+    /* Säilytä kuvasuhteet */
+    margin-bottom: 5px;
+    
+}
+
+.fruit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px; /* Lisää tilaa alapuolelle */
+    padding-bottom: 10px; /* Lisää padding alapuolelle */
+}
+
+.fruit-name {
+    display: block;
+    margin-top: 5px;
+}
+
+.fruit img {
+    width: 200px; /* Määritä kuvien koko */
+    height: auto; /* Säilytä kuvasuhteet */
+}
+
+/* Tablet-näkymä ja pienemmät näytöt */
+@media (max-width: 768px) {
+    .img-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    img {
+        width: 150px;
+    }
+}
+
+/* Mobiili-näkymä ja pienemmät näytöt */
+@media (max-width: 480px) {
+    img {
+        width: 100px;
+    }
+}
